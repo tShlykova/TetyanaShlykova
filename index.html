@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- підключаємо гугл шрифти -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shlykova</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <p>tSH</p>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#HOME">home</a></li>
+            <li><a href="#ABOUT">about</a></li>
+            <li><a href="#WORKS">works</a></li>
+            <li><a href="#CONTACTS">contacts</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="HOME">
+        <div class="text"> n
+            <h2 class="transform">shlykova</h2>
+        </div>
+        
+   <div class="gallery-item">
+            <img src="imges/0.jpg"width="30%">
+        </div>
+    </div>
+      
+    
+
+    <div class="section" id="ABOUT">
+
+        <h2 class="texth2">Про себе</h2>
+
+        <p align="left" class="aboutText"><img src="imges/0.jpg" width="500" height="500"class="rightpic">На даний момент навчаюсь у ЛНАМ
+            та перебуваю у творчих пошуках.
+            Діяльність: фотографія, ілюстрація,
+            анімація, проза та лірика.
+            В майбутньому хочу освоїти 3D sculpting,
+            концепт-арт.
+        </p>
+
+    </div>
+ 
+
+    <div class="section" id="WORKS">
+
+
+        <h2>WORKS</h2>
+
+
+        
+<div>
+  <div class="carousel">
+    <ul class="slides">
+      <input type="radio" name="radio-buttons" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imges/1.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-2" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-buttons" id="img-2" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imges/2.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-1" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-3" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-buttons" id="img-3" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imges/3.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-2" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-4" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-buttons" id="img-4" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imges/4.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-1" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      <div class="carousel-dots">
+        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+      </div>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <h2>Video</h2>
+      
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2x6KTUuMUMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DP6LpvtiJaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+   
+
+
+
+
+
+
+
+    <div class="section" id="CONTACTS">
+        <h2>Contacts</h2>
+
+        <ol>
+            <li>
+                <p><img src="imges/instagram.png" width="50" height="50" class="contact-pic">Social Network: <a href="https://www.instagram.com/tetyana_shlykova/">Instagram</a></p>
+            </li>
+            <li>
+                <p><img src="imges/email.png" width="45" height="45" class="contact-pic">E-mail: mw29shlykova09@gmail.com</p>
+            </li>
+
+            <li>
+                <p><img src="imges/phone.png" width="45" height="45" class="contact-pic">Phone Number: +38(068)-632-37-89</p>
+            </li>
+        </ol>
+
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script>
+
+<script>
+    lightGallery(document.getElementById('lightgallery'), {
+        selector: 'a'
+    }
+);
+</script>
+
+</body>
+</html>
